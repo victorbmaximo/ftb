@@ -1,0 +1,116 @@
+.bg {
+    /* background-color: #f9f9f9; */
+    width: 100%;
+    height: 100vh;
+    background: url(../images/working.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.pg-home-left {
+    display: flex;
+    justify-content: center;
+}
+.pg-home-left .about-me-box {
+    padding: 35px;
+    background-color: rgba(255, 255, 255, .9);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .2);
+    width: 490px;
+    height: 400px;
+    position: relative;
+    text-align: right;
+    top: 25%;
+}
+.pg-home-left .about-me-box .title {
+    margin: 0 0 10px 0;
+    font: 400 30px 'Open Sans';
+    color: #333;
+    text-align: center;
+}
+.pg-home-left .about-me-box .divider {
+    display: block;
+    width: 70px;
+    height: 3px;
+    background-color: #364e9c;
+    margin: 0 auto;
+    
+}
+.pg-home-left .about-me-box p {
+    margin-top: 15px;
+    letter-spacing: 1px;
+    font: 400 13px/24px 'Open Sans';
+    text-align: left;
+}
+.pg-home-left .about-me-box a {
+    font: 400 13px 'Open Sans';
+    letter-spacing: 1px;
+    color: #1e87f0;
+    text-decoration: none;
+    text-align: right;
+}
+.pg-home-left .about-me-box a:hover {
+    color: #2d2d2d;
+    transition: all 0.9;
+}
+
+/* tela artigos */
+.pg-home-right .panel-article {
+    position: relative;
+    top: 25%;
+    display: block;
+}
+  .pg-home-right .title-article .title {
+    font: 400 30px/50px 'Open Sans';
+    letter-spacing: 1px;
+    text-align: center;
+    color: #F9F9F9;
+    margin: 0;
+    padding: 0 0 15px 0;
+  }
+  .pg-home-right .divider {
+    display: block;
+    width: 70px;
+    height: 3px;
+    background-color: #F9F9F9;
+    margin: 0 auto;
+  }
+  .pg-home-right article {
+    display: block;
+    border-bottom: solid 1px #cecccc;
+    margin: 20px 0;
+    padding-bottom: 20px;
+  }
+  .pg-home-right article:last-of-type {
+    border: none;
+  }
+  .pg-home-right article figure {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    width: 120px;
+    height: 120px;
+    border-radius: 5px;
+    vertical-align: top;
+    position: relative;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  }
+  .pg-home-right article figure img {
+    width: 120px;
+    height: 120px;
+    border-radius: 5px;
+    object-fit: cover;
+  }
+  .pg-home-right article .content-post {
+    display: inline-block;
+    width: 400px;
+    padding-left: 20px;
+  }
+  .pg-home-right article .content-post .post-title {
+    font: 400 19px/25px 'Open Sans';
+    padding-bottom: 10px;
+    color: #F9F9F9;
+  }
+  .pg-home-right article .content-post .post-description {
+    font: 300 14px/19px 'Open Sans';
+    color: #F9F9F9;
+  }
+  
